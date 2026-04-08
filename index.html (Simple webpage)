@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salesforce Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to Salesforce</h1>
+
+    <p>
+        Salesforce is a customer success platform designed to help you sell, service, 
+        market, analyze, and connect with your customers.
+    </p>
+
+    <h2>Why Salesforce?</h2>
+    <ul>
+        <li>Manage customer relationships</li>
+        <li>Track sales and deals</li>
+        <li>Collaborate with teams</li>
+        <li>Secure cloud storage</li>
+    </ul>
+
+    <h2>Before Salesforce</h2>
+    <p>
+        Contacts, emails, and deals were scattered and difficult to manage.
+    </p>
+
+    <h2>With Salesforce</h2>
+    <p>
+        Everything is organized in one place and accessible anytime.
+    </p>
+
+</body>
+</html>

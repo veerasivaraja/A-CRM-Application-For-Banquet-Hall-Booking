@@ -1,0 +1,16 @@
+public class BillingTriggerHandlerClass {
+    Public Static Void BillingCreationonBooking(List<Banquet_Hall__c> bHallList){
+        List<Billing_c> billList = new List<Billing_c>();
+        
+        for(Banquet_Hall__c bHall : bHallList){
+            Billing_c bil = new Billing_c();
+            bil.Customer_Name__c =bHall.Id;
+            bil.Email_c = bHall.Email_c;
+            billList.add(bil);
+        }
+        if(!billList.isEmpty()){
+            insert billList;
+        }
+        
+    } 
+}
